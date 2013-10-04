@@ -1,0 +1,20 @@
+18. La salida es el mensaje que has indicado (Hola Mundo) seguido de la devolución de una variable nil.
+21. Con las dobles comillas ("\t\n") interpreta el mensaje que tiene en su interior, mostrando sólo un retorno de carro. Con las comillas simples ('\t\n') muestra lo que tiene en su interior literalmetne, es decir, \t\n.
+22. Devuelve lo que le has escrito entre llaves. Devuelve "hello world\\n" y "'a' 'b' 'c'" respectivamente.
+23. Devuelve lo que le has escrito entre llaves, interpretando los simbolos con \. Devuelve "hello world\n" y "\"a\" \"b\" \"c\"".
+24. En c aparece "--4--\n--2--\n", es decir, los valores de a y b.
+25. En c aparece "--\#{a}--\n--\#{b}--\n", es decir, las variables a y b literalmente.
+26. Aparecen "he", "o" y "hello", respectivamente.
+27. En g se almacena "hello world"
+28. Aparece el punto multiplicado por 3, es decir "..."
+29. El resultado que aparece es "2 2 2 "
+30. Escribe las cadenas de caracteres que hay entre corchetes, separados por comillas. Muestra "["this", "is", "a", "test"]"
+31. Muestra ["\\t" "\\n"]
+32. Muestra ["\t" "\n"]
+33. Un array formado por tres valores nil, "[nil, nil, nil]"
+34. Un array formado por tres valores cero, "[0, 0, 0]"
+35. En b se alamacena lo que había en x, es decir "[[1,2],[3,4]]".
+36. Un array formado por tres valores, "[0, 2, 4]"
+37. a[1,1] muestra "b". a[-2, 2] muestra "d", "e". a[0..2] muestra "a", "b", "c". a[0...1] muestra "a". a[-2..-1] muestra "d", "e".
+38. Al hacer a[0,2] %w{A B} se escribe en el array a los valores A y B en lugar de los dos primeros valores (a y b). En el array se almacena "["A", "B", "c", "d", "e"]". Lo mismo sucede con el siguiente comando, que muestra el array "["A", "B", "C", "D", "E"]". Con el tercer comando los valores se convierten en "[1, 2, 3, "A", "B", "C", "D", "E"]" (añade 1, 2 y 3 al principio). El cuarto comando borra del array los dos primeros elementos, quedando "[3, "A", "B", "C", "D", "E"]". El quinto comando devuelve "[3, "A", "B", "C", "D", "Z"]" y el último "[3, "A", "B", "C", nil]".
+39. "[1, 2, 3]", "[1, 2, 3, 4, 5]", "[1, 2, 3, 4, 5, [6, 7, 8]]", y el último comando da error.
